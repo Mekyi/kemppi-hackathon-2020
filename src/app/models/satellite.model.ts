@@ -1,5 +1,6 @@
 import { Unit } from './unit.model';
 
-export class PowerSupply extends Unit {
+export class Satellite extends Unit {
   status: string;
+  pluggedCarId: number;
 }

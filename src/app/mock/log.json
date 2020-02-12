@@ -1,0 +1,24 @@
+{
+  "logEntries": [
+    {
+      "logId": 42512,
+      "satelliteId": 124,
+      "entryTimestamp": "2020-02-12T14:00:00.000Z",
+      "socIn": 19,
+      "socOut": 100,
+      "carId": 12521,
+      "timePastFullCharge": 392,
+      "kWh": 0.72
+    },
+    {
+      "logId": 25262,
+      "satelliteId": 259,
+      "entryTimestamp": "2020-02-10T11:00:00.000Z",
+      "socIn": 24,
+      "socOut": 89,
+      "carId": 215691,
+      "timePastFullCharge": 0,
+      "kWh": 0.48
+    }
+  ]
+}

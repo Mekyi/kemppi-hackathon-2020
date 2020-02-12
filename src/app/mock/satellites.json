@@ -1,0 +1,34 @@
+{
+  "satellites": [
+    {
+      "id": 124,
+      "description": "Kempinkatu 1 latauspiste",
+      "coordinates": {
+        "lat": 25.587888,
+        "lon": 60.967193
+      },
+      "status": "in-use",
+      "pluggedCarId": 12521
+    },
+    {
+      "id": 245,
+      "description": "LAMK M19 latauspiste",
+      "coordinates": {
+        "lat": 25.663161,
+        "lon": 61.005471
+      },
+      "status": "free",
+      "pluggedCarId": null
+    },
+    {
+      "id": 259,
+      "description": "LAMK Niemenkadun latauspiste",
+      "coordinates": {
+        "lat": 25.653462,
+        "lon": 61.005991
+      },
+      "status": "in-use",
+      "pluggedCarId": 21569
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "powerSupplies": [
+    {
+      "id": 5334,
+      "description": "Kempinkadun virtalähde",
+      "coordinates": {
+        "lat": 25.587888,
+        "lon": 60.967193
+      },
+      "power": 80,
+      "chargeHours": 1200,
+      "freeHours": 4256,
+      "totalHours": 5356,
+      "totalChargePower": 93
+    },
+    {
+      "id": 5252,
+      "description": "LAMK M19 virtalähde",
+      "coordinates": {
+        "lat": 25.663161,
+        "lon": 61.005471
+      },
+      "power": 80,
+      "chargeHours": 5123,
+      "freeHours": 12054,
+      "totalHours": 17177,
+      "totalChargePower": 409.84
+    },
+    {
+      "id": 1925,
+      "description": "LAMK Niemenkadun virtalähde",
+      "coordinates": {
+        "lat": 25.653462,
+        "lon": 61.005991
+      },
+      "power": 80,
+      "chargeHours": 7230,
+      "freeHours": 15240,
+      "totalHours": 22470,
+      "totalChargePower": 578.4
+    }
+  ]
+}

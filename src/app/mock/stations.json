@@ -1,0 +1,16 @@
+{
+  "stations": [
+    {
+      "satelliteId": 124,
+      "powerSupplyId": 5334
+    },
+    {
+      "satelliteId": 245,
+      "powerSupplyId": 5252
+    },
+    {
+      "satelliteId": 259,
+      "powerSupplyId": 1925
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "cars": [
+    {
+      "carId": 12521,
+      "carModel": "Tesla Model S",
+      "plugged": true
+    },
+    {
+      "carId": 21569,
+      "carModel": "Cybertruck",
+      "plugged": true
+    },
+    {
+      "carId": 96232,
+      "carModel": "Nissan LEAF",
+      "plugged": false
+    }
+  ]
+}

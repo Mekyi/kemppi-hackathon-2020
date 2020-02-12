@@ -4,6 +4,6 @@ export class Log {
   entryTimestamp: Date;
   socIn: number;
   socOut: number;
-  timePastFullCharge: Date;
+  timePastFullCharge: number;
   kWh: number;
 }
