@@ -7,4 +7,16 @@ import { UpgradableComponent } from 'theme/components/upgradable';
 })
 export class DashboardComponent extends UpgradableComponent {
   @HostBinding('class.mdl-grid') private readonly mdlGrid = true;
+  private data =[{
+    stype: '',
+    image: 'satellite.png',
+
+  },{
+  stype: '',
+  image: 'satellite.png',
+  },
+{
+  stype: '',
+  image: 'satellite.png',
+}]
 }
