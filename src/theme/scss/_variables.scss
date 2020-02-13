@@ -170,7 +170,7 @@ $list-two-line-height: 64px;
 $layout-drawer-narrow: 236px;
 $layout-header-mobile-indent: 8px;
 $layout-header-desktop-indent: 20px;
-$layout-screen-size-threshold: 1440px;
+$layout-screen-size-threshold: 1920px;
 
 /* ICON */
 
@@ -190,7 +190,7 @@ $checkbox-padding: 8px;
 /* CARD */
 
 /* Card dimensions */
-$card-height: auto;
+$card-height: 100%;
 $card-width: auto;
 $card-title-font-size: 24px;
 $card-title-text-font-weight: 400;
