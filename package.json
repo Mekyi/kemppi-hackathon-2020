@@ -13,7 +13,6 @@
     "slint:fix": "stylelint --syntax scss --fix ./**/*.scss",
     "lint": "ng lint && stylelint --syntax scss ./**/*.scss"
   },
-  "pre-commit": "lint",
   "dependencies": {
     "@angular/animations": "7.2.1",
     "@angular/common": "7.2.1",
