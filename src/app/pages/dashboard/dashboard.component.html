@@ -27,11 +27,11 @@
               <img width="100%" src="assets/images/{{ item.image }}">
             </div>
             <span>{{ item.name }}</span>
-            <span class="mdl-list__item-sub-title">{{ item.stype }} </span>
-            <span class="mdl-list__item-sub-title">{{ item.maxpower }}</span>
-            <span class="mdl-list__item-sub-title">{{ item.fwversion }}</span>
-            <span class="mdl-list__item-sub-title">{{ item.connector }}</span>
-            <span class="mdl-list__item-sub-title">{{ item.serial }}</span>
+            <span class="mdl-list__item-sub-title">Type: {{ item.stype }} </span>
+            <span class="mdl-list__item-sub-title">Max Power: {{ item.maxpower }}kWh</span>
+            <span class="mdl-list__item-sub-title">Firmware: version {{ item.fwversion }}</span>
+            <span class="mdl-list__item-sub-title">Connector: {{ item.connector }}</span>
+            <span class="mdl-list__item-sub-title">Serialnumber: {{ item.serial }}</span>
           </span>
           <span class="mdl-list__item-secondary-content">
             <span class="mdl-list__item-secondary-action">Current: {{ item.powernow }}kWh/ 7d avg{{item.poweravg}}kWh</span>
