@@ -18,6 +18,6 @@ export class SidebarComponent extends BaseSidebarComponent {
       { name: 'Forgot password', link: '/auth/forgot-password' }],
       icon: 'lock',
     },
-    { name: '404', link: '/404', icon: 'build' },
+    { name: 'Settings', link: '/app/settings', icon: 'build' },
   ];
 }

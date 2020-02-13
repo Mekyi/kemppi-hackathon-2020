@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { LayoutsModule } from 'app/layouts';
 import { BlankLayoutComponent } from 'app/layouts/blank-layout';
+import { SettingsComponent } from '../settings';
 import { ErrorComponent } from './error';
 
 @NgModule({
@@ -12,6 +13,7 @@ import { ErrorComponent } from './error';
         path: '',
         component: BlankLayoutComponent,
         children: [
+          { path: 'settings', component: SettingsComponent },
           { path: '404', component: ErrorComponent, pathMatch: 'full' },
           { path: '**', redirectTo: '404' },
         ],
