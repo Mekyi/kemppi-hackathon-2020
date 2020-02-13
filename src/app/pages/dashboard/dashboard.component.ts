@@ -9,6 +9,21 @@ export class DashboardComponent extends UpgradableComponent {
   @HostBinding('class.mdl-grid') private readonly mdlGrid = true;
   private data =[{
     stype: '',
+    maxpower:'',
+    fwversion:'',
+    connector:'',
+    serial:'',
+    powernow:'',
+    poweravg:'',
+    usage:'',
+    usageavg:'',
+    used:'',
+    usedavg:'',
+    free:'',
+    charging:'',
+    idle:'',
+    car:'',
+    soccurrent:'',
     image: 'satellite.png',
 
   },{
