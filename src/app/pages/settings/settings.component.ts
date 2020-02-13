@@ -7,7 +7,4 @@ import { UpgradableComponent } from 'theme/components/upgradable';
 })
 export class SettingsComponent extends UpgradableComponent {
   @HostBinding('class.mdl-grid') private readonly mdlGrid = true;
-  @HostBinding('id.first-satellite') satellite1Name;
-  @HostBinding('id.first-satellite') satellite2Name;
-  @HostBinding('id.first-satellite') satellite3Name;
 }
