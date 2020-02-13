@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { LayoutsModule } from './layouts';
 import { CommonLayoutComponent } from './layouts/common-layout';
 import { DashboardComponent } from './pages/dashboard';
+import { SettingsComponent } from './pages/settings';
 
 @NgModule({
   imports: [
@@ -12,7 +13,8 @@ import { DashboardComponent } from './pages/dashboard';
         { path: '', redirectTo: 'app/dashboard', pathMatch: 'full' },
         {
           path: 'app', component: CommonLayoutComponent, children: [
-          { path: 'dashboard', component: DashboardComponent, pathMatch: 'full' }],
+          { path: 'dashboard', component: DashboardComponent, pathMatch: 'full' },
+          { path: 'settings', component: SettingsComponent }],
         },
         { path: 'auth', loadChildren: './pages/auth/auth.module#AuthModule' },
         { path: 'pages', loadChildren: './pages/pages/pages.module#PagesModule' },
